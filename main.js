@@ -10,7 +10,7 @@ Bear = Class.create(Sprite, // Spriteクラスを継承
             this.x = x;
             this.y = y;
 
-            this.tx = this.x; //行きたい場所のX座標
+            this.tx = this.x; //行きたい場所のX座標hurry_curry
             this.ty = this.y; //行きたい場所のY座標
             this.frame = 1;
             game.rootScene.addChild(this);
